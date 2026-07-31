@@ -1,0 +1,189 @@
+/* ===================================================
+   Job Portal - Custom CSS
+   Colors used: Blue, White, Light Gray
+   =================================================== */
+
+/* ---------- Basic page settings ---------- */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f7fa; /* light gray */
+  color: #333333;
+}
+
+/* ---------- Navbar ---------- */
+.navbar-brand {
+  font-size: 22px;
+}
+
+.navbar .nav-link {
+  margin-left: 10px;
+  transition: color 0.3s;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* ---------- Hero section (Home page) ---------- */
+.hero {
+  background-color: #0d6efd; /* blue */
+  color: #ffffff;
+  padding: 80px 15px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.hero .lead {
+  margin-bottom: 25px;
+}
+
+/* ---------- Page heading (inner pages) ---------- */
+.page-heading {
+  background-color: #0d6efd;
+  color: #ffffff;
+  padding: 50px 15px;
+}
+
+.page-heading h1 {
+  font-size: 32px;
+}
+
+/* ---------- Section title ---------- */
+.section-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.section-light {
+  background-color: #ffffff;
+}
+
+/* ---------- Cards ---------- */
+.card {
+  border: none;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Hover effect for job cards and feature cards */
+.job-card:hover,
+.feature-card:hover,
+.stat-card:hover {
+  box-shadow: 0 6px 18px rgba(13, 110, 253, 0.2);
+  transform: translateY(-4px);
+  transition: all 0.3s;
+}
+
+.job-card,
+.feature-card,
+.stat-card {
+  transition: all 0.3s;
+}
+
+/* Round blue icon box inside cards */
+.job-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #e7f0ff;
+  color: #0d6efd;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.company {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  border-radius: 8px;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+/* ---------- Forms ---------- */
+.form-control,
+.form-select {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.form-label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* ---------- Footer ---------- */
+.footer {
+  background-color: #0b2545;
+  color: #dee2e6;
+}
+
+.footer h5,
+.footer h6 {
+  color: #ffffff;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #dee2e6;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+.social-icons a {
+  color: #0d6efd;
+  font-size: 18px;
+  margin-right: 12px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #0b5ed7;
+}
+
+/* Social icons inside the footer are white */
+.footer .social-icons a {
+  color: #ffffff;
+}
+
+.footer .social-icons a:hover {
+  color: #4d94ff;
+}
+
+/* ---------- Simple media query for mobile ---------- */
+@media (max-width: 768px) {
+  .hero {
+    padding: 50px 15px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .page-heading h1 {
+    font-size: 26px;
+  }
+
+  .navbar .nav-link {
+    margin-left: 0;
+  }
+}
